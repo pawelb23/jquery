@@ -46,7 +46,5 @@ $(function () {
     drugiNaglowek.addClass('blue'); //--- dodaje klasę o nazwie blue
     drugiNaglowek.removeClass('blue'); // usunięcie klasy blue
     
-    drugiNaglowek.addClass('backgroundColor');
-    
-    
+    drugiNaglowek.addClass('backgroundColor');    
 });
