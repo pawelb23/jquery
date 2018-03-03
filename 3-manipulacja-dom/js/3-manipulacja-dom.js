@@ -31,10 +31,10 @@ $(function () {
     removePrzyklad.remove();
 
     var zmienKolor = $('#first');
-    zmienKolor.css('color', 'red');
+    zmienKolor.css('color', 'blue');//w tej chwili nie działa, gdyż kolejna linijka nadpisuje ten kod
     zmienKolor.css({
         'color': 'green',
-        'font-size': '4em'
+        'font-size': '4em'//to zapis gdy jest więcej niż jedma właściwość do dodania
     });
 
 
