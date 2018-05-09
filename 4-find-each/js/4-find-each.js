@@ -7,7 +7,7 @@ $(function () {
 
     var paragrafy = $('.paragraf');
     var pobranyPoEq = paragrafy.eq(1).css('color', 'red');
-    paragrafy.eq(1).css('color', 'red');//pobieramyz tablicy jQuery
+    paragrafy.eq(1).css('color', 'red');//pobieramy z tablicy jQuery
     
     paragrafy[0].style.backgroundColor = 'red' //--- to jest model DOM, nie jQuery 
     console.log(pobranyPoEq);
