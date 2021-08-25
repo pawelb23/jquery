@@ -1,7 +1,15 @@
 .blue {
-    color: blue;
+  color: blue;
 }
 
 .backgroundColor {
-    background-color: red;
+  background-color: red;
+}
+
+.paragrafnext.paragraf {
+  color: pink;
+}
+
+.paragraf {
+  color: purple;
 }
